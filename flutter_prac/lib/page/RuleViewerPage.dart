@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_prac/widget/RuleViewerform.dart';
+import 'package:flutter_prac/widget/RulesViewer.dart';
 
 class RuleViewerPage extends StatelessWidget {
   @override
@@ -10,6 +10,6 @@ class RuleViewerPage extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Color.fromRGBO(51, 51, 51, 51),
         ),
-        body: RuleViewerForm(),
+        body: RulesViewer(),
       );
 }
